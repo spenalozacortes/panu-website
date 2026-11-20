@@ -1,5 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head></head>
-    <body></body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio de Panu 🐈‍⬛</title>
+        <style>
+            img {
+                width: 300px;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bienvenidos al sitio web de Panu</h1>
+        <p>Hola, me llamo Panu y soy un gatito negro de 2 meses y medio.</p>
+        <figure>
+            <img src="images/panu-programando.webp" alt="Panu programando en una Mac">
+            <figcaption>Yo programando mi sitio, noviembre 2026</figcaption>
+        </figure>
+        <h2>Encuesta mafufa</h2>
+        <form>
+            <p>¿Amas a Panu?</p>
+            <input type="radio" id="si" name="respuesta" value="si">
+            <label for="yes">Sí</label>
+            <br>
+            <input type="radio" id="si-con-locura" name="respuesta" value="si-con-locura">
+            <label for="si-con-locura">Sí, con locura</label>
+            <p>Dile algo bonito a Panu:</p>
+            <textarea id="mensaje-bonito" name="mensaje-bonito" rows="5" cols="30" placeholder="Todavía no llega a ningún lado este mensaje jeje"></textarea>
+            <br>
+            <button type="submit">¡Enviar!</button>
+        </form>
+        <footer>
+            <p>Hecho con amor y sin IA en Ciudad Croqueta <3</p>
+        </footer>
+    </body>
 </html>
